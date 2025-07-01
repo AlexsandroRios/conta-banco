@@ -17,7 +17,5 @@ public class ContaTerminal {
         saldo = texto.nextDouble();texto.nextLine();texto.close();
         System.out.println("Cadastro realizado com sucesso, segue informações da conta.");
         System.out.printf("Olá, %s, obrigado por criar uma conta em nosso banco, sua agência é %s,\nconta %s e seu saldo R$%.2f já está disponível para saque.",nomeCliente,agencia,numeroConta,saldo);
-
-
     }
 }
